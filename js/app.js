@@ -12,7 +12,7 @@ const KUMA_MENU = [
   {
     id: "curry", title: "Curry", jp: "カレー",
     note: {
-      en: "Our Japanese curry, mijoté for hours and served with premium koshihikari rice. Add a nitamago (soft-boiled egg) to any bowl.",
+      en: "Our Japanese curry, slow-simmered for hours and served with premium koshihikari rice. Add a nitamago (soft-boiled egg) to any bowl.",
       fr: "Notre curry japonais, mijoté des heures et servi avec un riz koshihikari premium. Ajoutez un nitamago (œuf mollet) à n'importe quel bol.",
       ja: "何時間も煮込んだ自家製ジャパニーズカレー。上質なコシヒカリとともに。半熟卵（味玉）の追加もどうぞ。"
     },

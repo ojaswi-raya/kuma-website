@@ -14,7 +14,7 @@ const I18N = {
 
     "story.eyebrow": "Our Story — Since 2019",
     "story.title": "Home-style Japanese,<br>served warm.",
-    "story.p1": "KUMA opened in 2019 on rue des Écouffes in the Marais — a small counter serving the food we love: Japanese curry mijoté for hours, and donburi built around good rice. Family cooking, generous portions, nothing more.",
+    "story.p1": "KUMA opened in 2019 on rue des Écouffes in the Marais — a small counter serving the food we love: Japanese curry slow-simmered for hours, and donburi built around good rice. Family cooking, generous portions, nothing more.",
     "story.p2": "Everything is made in-house each day. Our second address opened on rue Cadet in the 9th, with a few more seats and a small terrace. Both are still small, still walk-in, still the same short menu — the way we like it.",
 
     "fav.eyebrow": "The Menu",
