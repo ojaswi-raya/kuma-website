@@ -28,7 +28,7 @@ const I18N = {
     "loc.sub": "Walk-in only. The counters are small, so arrive early — it's part of the charm.",
     "loc.marais_note": "The original — a small counter, a few seats.",
     "loc.cadet_note": "Our newer address — more seats, a small terrace.",
-    "loc.walkin_only": "Walk-in only · Sans réservation",
+    "loc.walkin_only": "Walk-in only · Without reservation",
     "loc.directions": "Get Directions →",
 
     "cta.title": "Come hungry.",
@@ -40,7 +40,7 @@ const I18N = {
 
     "gallery.follow": "Follow Us →",
 
-    "footer.tagline": "Cuisine familiale et généreuse — Japanese curry & donburi in Paris. Since 2019.",
+    "footer.tagline": "Warm, generous home cooking — Japanese curry & donburi in Paris. Since 2019.",
     "footer.explore": "Explore", "footer.visit": "Visit", "footer.follow": "Follow",
     "footer.story": "Our Story",
     "footer.walkin": "Walk-in only",
