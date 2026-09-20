@@ -8,9 +8,9 @@ const I18N = {
   en: {
     "nav.home": "Home", "nav.story": "Story", "nav.menu": "Menu", "nav.locations": "Locations", "nav.contact": "Contact",
 
-    "hero.tagline": "Cuisine familiale et généreuse — Japanese curry & donburi in the heart of Paris.",
+    "hero.tagline": "Warm, generous home cooking — Japanese curry & donburi in the heart of Paris.",
     "hero.cta_menu": "See the Menu", "hero.cta_find": "Find Us",
-    "hero.walkin": "Walk-ins only · Sans réservation",
+    "hero.walkin": "Walk-ins only · Without reservation",
 
     "story.eyebrow": "Our Story — Since 2019",
     "story.title": "Home-style Japanese,<br>served warm.",
