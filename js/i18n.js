@@ -21,7 +21,7 @@ const I18N = {
     "fav.title": "Our Favourites",
     "fav.view_full": "See the Full Menu",
     "dish.katsu.desc": "Panko-breaded pork cutlet, our slow-cooked Japanese curry, koshihikari rice. Add a nitamago egg to make it a feast.",
-    "dish.yasai.desc": "Roasted seasonal vegetables — mushroom, aubergine, pumpkin — over rice with our house curry. Fully vegetarian.",
+    "dish.yasai.desc": "Roasted seasonal vegetables — mushroom, eggplant, pumpkin — over rice with our house curry. Completely vegetarian.",
 
     "loc.eyebrow": "Visit Us",
     "loc.title": "Two Small Counters",
