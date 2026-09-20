@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visit &amp; Contact — KUMA Paris</title>
+<meta name="description" content="Find KUMA Paris in the Marais (75004) or on rue Cadet (75009). Walk-ins only. For press and general inquiries, get in touch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__name">KUMA</span>
+      <span class="brand__jp">くま</span>
+    </a>
+    <nav class="nav label-caps" aria-label="Main">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="index.html#story" data-i18n="nav.story">Story</a>
+      <a href="menu.html" data-i18n="nav.menu">Menu</a>
+      <a href="index.html#locations" data-i18n="nav.locations">Locations</a>
+      <a href="contact.html" aria-current="page" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="ja">日本語</button>
+      </div>
+      <button type="button" class="menu-toggle" data-menu-toggle aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav label-caps" data-mobile-nav aria-label="Mobile">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="index.html#story" data-i18n="nav.story">Story</a>
+    <a href="menu.html" data-i18n="nav.menu">Menu</a>
+    <a href="index.html#locations" data-i18n="nav.locations">Locations</a>
+    <a href="contact.html" aria-current="page" data-i18n="nav.contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <p class="jp page-hero__jp">お立ち寄り</p>
+    <h1 class="display" data-i18n="visit.title">Visit &amp; Contact</h1>
+    <p class="body-lg muted" style="max-width:560px;margin:20px auto 0" data-i18n="visit.sub">We don't take reservations — just come by. For press, private events, or a question, drop us a line.</p>
+    <div class="seigaiha" aria-hidden="true"></div>
+  </section>
+
+  <!-- Locations -->
+  <section class="section container">
+    <div class="location-grid">
+      <div class="location-card">
+        <div class="location-card__head">
+          <h3 class="headline-md">KUMA Marais</h3>
+          <span class="jp location-card__jp">くま</span>
+        </div>
+        <div>
+          <p class="location-card__meta" data-i18n="loc.marais_note">The original — a small counter, a few seats.</p>
+          <p class="location-card__addr">5 rue des Écouffes<br>75004 Paris</p>
+          <hr class="rule">
+          <p class="location-card__hours label-caps" data-i18n="loc.walkin_only">Walk-in only · Sans réservation</p>
+        </div>
+        <a class="location-card__link label-caps" href="https://maps.google.com/?q=5+rue+des+Ecouffes+75004+Paris" target="_blank" rel="noopener" data-i18n="loc.directions">Get Directions →</a>
+      </div>
+      <div class="location-card">
+        <div class="location-card__head">
+          <h3 class="headline-md">KUMA Cadet</h3>
+          <span class="jp location-card__jp">くま</span>
+        </div>
+        <div>
+          <p class="location-card__meta" data-i18n="loc.cadet_note">Our newer address — more seats, a small terrace.</p>
+          <p class="location-card__addr">8 rue Cadet<br>75009 Paris</p>
+          <hr class="rule">
+          <p class="location-card__hours label-caps" data-i18n="loc.walkin_only">Walk-in only · Sans réservation</p>
+        </div>
+        <a class="location-card__link label-caps" href="https://maps.google.com/?q=8+rue+Cadet+75009+Paris" target="_blank" rel="noopener" data-i18n="loc.directions">Get Directions →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact form -->
+  <section class="section--tight container" style="max-width:720px">
+    <div class="contact-intro">
+      <div class="eyebrow eyebrow--center label-caps" data-i18n="contact.eyebrow">Get in touch</div>
+      <h2 class="headline-lg" style="text-align:center" data-i18n="contact.title">Press &amp; general inquiries</h2>
+      <p class="muted contact-intro__body" data-i18n="contact.body">Group visits, private events, press requests, or anything else — send us a message and we'll reply as soon as we can.</p>
+    </div>
+    <!-- Set your Formspree (or similar) endpoint in the action attribute — see README.md -->
+    <form class="form-grid" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="form-grid form-grid--2">
+        <div class="field"><label class="label-caps" for="c-name" data-i18n="contact.name">Name</label><input id="c-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label class="label-caps" for="c-email" data-i18n="contact.email">Email</label><input id="c-email" name="email" type="email" autocomplete="email" required></div>
+      </div>
+      <div class="field">
+        <label class="label-caps" for="c-subject" data-i18n="contact.subject">Subject</label>
+        <select id="c-subject" name="subject">
+          <option value="general" data-i18n="contact.subject_general">General inquiry</option>
+          <option value="group" data-i18n="contact.subject_group">Group visit</option>
+          <option value="press" data-i18n="contact.subject_press">Press &amp; media</option>
+          <option value="private" data-i18n="contact.subject_private">Private event</option>
+        </select>
+      </div>
+      <div class="field"><label class="label-caps" for="c-message" data-i18n="contact.msg">Message</label><textarea id="c-message" name="message" rows="6" required></textarea></div>
+      <button type="submit" class="btn btn--primary label-caps" style="justify-self:start" data-i18n="contact.submit">Send message</button>
+      <p class="form-note" data-i18n="contact.note">We usually reply within a day or two.</p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer" style="margin-top:0">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <p class="brand__name" style="margin:0 0 8px">KUMA <span class="jp" style="font-size:16px;color:rgba(28,27,27,0.4)">くま</span></p>
+        <p class="muted" style="max-width:320px" data-i18n="footer.tagline">Cuisine familiale et généreuse — Japanese curry &amp; donburi in Paris. Since 2019.</p>
+      </div>
+      <div>
+        <h4 class="label-caps" data-i18n="footer.explore">Explore</h4>
+        <ul>
+          <li><a href="menu.html" data-i18n="nav.menu">Menu</a></li>
+          <li><a href="index.html#story" data-i18n="footer.story">Our Story</a></li>
+          <li><a href="index.html#locations" data-i18n="nav.locations">Locations</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="label-caps" data-i18n="footer.visit">Visit</h4>
+        <ul>
+          <li>5 rue des Écouffes, 75004</li>
+          <li>8 rue Cadet, 75009</li>
+          <li data-i18n="footer.walkin">Walk-in only</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="label-caps" data-i18n="footer.follow">Follow</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span data-i18n="footer.rights">© 2026 KUMA Paris. All rights reserved.</span>
+      <span class="jp" data-i18n="footer.motto">くま — the bear that cooks with heart</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

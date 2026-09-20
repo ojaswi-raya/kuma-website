@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KUMA Paris — Japanese Curry &amp; Donburi in Paris</title>
+<meta name="description" content="KUMA Paris — cuisine familiale et généreuse. Japanese curry &amp; donburi, made from scratch every day. Two locations: Cadet (75009) and Marais (75004). Walk-ins only.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__name">KUMA</span>
+      <span class="brand__jp">くま</span>
+    </a>
+    <nav class="nav label-caps" aria-label="Main">
+      <a href="index.html" aria-current="page" data-i18n="nav.home">Home</a>
+      <a href="index.html#story" data-i18n="nav.story">Story</a>
+      <a href="menu.html" data-i18n="nav.menu">Menu</a>
+      <a href="index.html#locations" data-i18n="nav.locations">Locations</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="ja">日本語</button>
+      </div>
+      <button type="button" class="menu-toggle" data-menu-toggle aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav label-caps" data-mobile-nav aria-label="Mobile">
+    <a href="index.html" aria-current="page" data-i18n="nav.home">Home</a>
+    <a href="index.html#story" data-i18n="nav.story">Story</a>
+    <a href="menu.html" data-i18n="nav.menu">Menu</a>
+    <a href="index.html#locations" data-i18n="nav.locations">Locations</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__media">
+      <img src="images/vegetable-curry.jpg" alt="KUMA yasai curry, plated">
+    </div>
+    <div class="hero__content">
+      <p class="jp hero__jp">くま</p>
+      <h1 class="display">KUMA</h1>
+      <p class="body-lg muted hero__tagline" data-i18n="hero.tagline">Cuisine familiale et généreuse — Japanese curry &amp; donburi in the heart of Paris.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary label-caps" href="menu.html" data-i18n="hero.cta_menu">See the Menu</a>
+        <a class="btn btn--ghost label-caps" href="#locations" data-i18n="hero.cta_find">Find Us</a>
+      </div>
+      <p class="hero__meta label-caps" data-i18n="hero.walkin">Walk-ins only · Sans réservation</p>
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section class="section container" id="story">
+    <div class="story-grid">
+      <div class="story-grid__media">
+        <img src="images/team-serving.jpg" alt="The KUMA kitchen team, mid-service" loading="lazy">
+      </div>
+      <div class="story-grid__text">
+        <div class="eyebrow label-caps" data-i18n="story.eyebrow">Our Story — Since 2019</div>
+        <h2 class="headline-lg" data-i18n-html="story.title">Home-style Japanese,<br>served warm.</h2>
+        <p class="body-lg muted" data-i18n="story.p1">KUMA opened in 2019 on rue des Écouffes in the Marais — a small counter serving the food we love: Japanese curry mijoté for hours, and donburi built around good rice. Family cooking, generous portions, nothing more.</p>
+        <p class="muted" data-i18n="story.p2">Everything is made in-house each day. Our second address opened on rue Cadet in the 9th, with a few more seats and a small terrace. Both are still small, still walk-in, still the same short menu — the way we like it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signature dishes -->
+  <section class="section" style="background: var(--surface-low);">
+    <div class="container">
+      <div class="section-heading">
+        <div class="eyebrow eyebrow--center label-caps" data-i18n="fav.eyebrow">The Menu</div>
+        <h2 class="headline-lg" data-i18n="fav.title">Our Favourites</h2>
+      </div>
+      <div class="dish-grid dish-grid--offset">
+        <article class="dish-card">
+          <div class="dish-card__media">
+            <img src="images/katsu-curry.jpg" alt="Katsu curry with miso soup" loading="lazy">
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__row">
+              <h3 class="headline-md dish-card__title">Katsu Curry</h3>
+              <span class="muted">€14</span>
+            </div>
+            <p class="dish-card__desc" data-i18n="dish.katsu.desc">Panko-breaded pork cutlet, our slow-cooked Japanese curry, koshihikari rice. Add a nitamago egg to make it a feast.</p>
+          </div>
+        </article>
+        <article class="dish-card">
+          <div class="dish-card__media">
+            <img src="images/vegetable-curry.jpg" alt="Yasai (vegetable) curry" loading="lazy">
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__row">
+              <h3 class="headline-md dish-card__title">Yasai Curry</h3>
+              <span class="muted">€13</span>
+            </div>
+            <p class="dish-card__desc" data-i18n="dish.yasai.desc">Roasted seasonal vegetables — mushroom, aubergine, pumpkin — over rice with our house curry. Fully vegetarian.</p>
+          </div>
+        </article>
+      </div>
+      <div class="section-cta">
+        <a class="link-underline label-caps" href="menu.html" data-i18n="fav.view_full">See the Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations -->
+  <section class="section container" id="locations">
+    <div class="section-heading">
+      <div class="eyebrow eyebrow--center label-caps" data-i18n="loc.eyebrow">Visit Us</div>
+      <h2 class="headline-lg" data-i18n="loc.title">Two Small Counters</h2>
+      <p class="muted section-heading__sub" data-i18n="loc.sub">Walk-in only. The counters are small, so arrive early — it's part of the charm.</p>
+    </div>
+    <div class="location-grid">
+  <div class="location-card">
+    <div class="location-card__head">
+      <h3 class="headline-md">KUMA Cadet</h3>
+      <span class="jp location-card__jp">くま</span>
+    </div>
+
+    <div>
+      <p class="location-card__meta" data-i18n="loc.cadet_note">
+        Our newer address — more seats, a small terrace.
+      </p>
+
+      <p class="location-card__addr">
+        8 rue Cadet<br>75009 Paris
+      </p>
+
+      <hr class="rule">
+
+      <p class="muted" style="margin:16px 0 0">
+        Mon–Sat: 12:00 – 14:30<br>
+        19:00 – 22:30<br>
+        Sun: Closed
+      </p>
+
+      <p class="location-card__hours label-caps" data-i18n="loc.walkin_only">
+        Walk-in only · Sans réservation
+      </p>
+    </div>
+
+    <a
+      class="location-card__link label-caps"
+      href="https://maps.google.com/?q=8+rue+Cadet+75009+Paris"
+      target="_blank"
+      rel="noopener"
+      data-i18n="loc.directions"
+    >
+      Get Directions →
+    </a>
+  </div>
+
+
+  <div class="location-card">
+    <div class="location-card__head">
+      <h3 class="headline-md">KUMA Marais</h3>
+      <span class="jp location-card__jp">くま</span>
+    </div>
+
+    <div>
+      <p class="location-card__meta" data-i18n="loc.marais_note">
+        The original — a small counter, a few seats.
+      </p>
+
+      <p class="location-card__addr">
+        5 rue des Ecouffes<br>75004 Paris
+      </p>
+
+      <hr class="rule">
+
+      <p class="muted" style="margin:16px 0 0">
+        Tue–Sun: 12:00 – 15:00<br>
+        19:00 – 23:00<br>
+        Mon: Closed
+      </p>
+
+      <p class="location-card__hours label-caps" data-i18n="loc.walkin_only">
+        Walk-in only · Sans réservation
+      </p>
+    </div>
+
+    <a
+      class="location-card__link label-caps"
+      href="https://maps.google.com/?q=5+rue+des+Ecouffes+75004+Paris"
+      target="_blank"
+      rel="noopener"
+      data-i18n="loc.directions"
+    >
+      Get Directions →
+    </a>
+  </div>
+</div>
+  </section>
+
+  <!-- CTA strip -->
+  <section class="cta-strip">
+    <h2 class="headline-lg" data-i18n="cta.title">Come hungry.</h2>
+    <p data-i18n="cta.body">Small counters, big bowls. See what's on today.</p>
+    <a class="btn btn--red label-caps" href="menu.html" data-i18n="cta.see_menu">See the Menu</a>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section" style="padding-bottom:0">
+    <div class="container gallery-head">
+      <h2 class="headline-md">@kumaparis</h2>
+      <a class="label-caps muted gallery-follow" href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener" data-i18n="gallery.follow">Follow Us →</a>
+    </div>
+    <div class="gallery">
+      <a class="gallery__item" href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener"><img src="images/dish-2.jpg" alt="A KUMA plate" loading="lazy"></a>
+      <a class="gallery__item" href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener"><img src="images/black-sesame-dessert.jpg" alt="Black sesame dessert" loading="lazy"></a>
+      <a class="gallery__item" href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener"><img src="images/black-sesame-cheesecake.jpg" alt="Black sesame cheesecake" loading="lazy"></a>
+      <a class="gallery__item" href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener"><img src="images/dish-4.jpg" alt="A KUMA dish" loading="lazy"></a>
+      <a class="gallery__item" href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener"><img src="images/dish-5.jpg" alt="A KUMA dish" loading="lazy"></a>
+      <a class="gallery__item" href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener"><img src="images/dish-6.jpg" alt="A KUMA dish" loading="lazy"></a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <p class="brand__name" style="margin:0 0 8px">KUMA <span class="jp" style="font-size:16px;color:rgba(28,27,27,0.4)">くま</span></p>
+        <p class="muted" style="max-width:320px" data-i18n="footer.tagline">Cuisine familiale et généreuse — Japanese curry &amp; donburi in Paris. Since 2019.</p>
+      </div>
+      <div>
+        <h4 class="label-caps" data-i18n="footer.explore">Explore</h4>
+        <ul>
+          <li><a href="menu.html" data-i18n="nav.menu">Menu</a></li>
+          <li><a href="index.html#story" data-i18n="footer.story">Our Story</a></li>
+          <li><a href="index.html#locations" data-i18n="nav.locations">Locations</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="label-caps" data-i18n="footer.visit">Visit</h4>
+        <ul>
+          <li>5 rue des Écouffes, 75004</li>
+          <li>8 rue Cadet, 75009</li>
+          <li data-i18n="footer.walkin">Walk-in only</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="label-caps" data-i18n="footer.follow">Follow</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/kumaparis/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span data-i18n="footer.rights">© 2026 KUMA Paris. All rights reserved.</span>
+      <span class="jp" data-i18n="footer.motto">くま — the bear that cooks with heart</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
